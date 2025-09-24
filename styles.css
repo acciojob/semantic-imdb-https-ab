@@ -1,2 +1,70 @@
-
 /* Your CSS Code here. */
+body {
+	background-color: whitesmoke;
+	mragin:  0;
+	padding: 0;
+}
+
+h1 {
+	color: black;
+	margin-bottom: 2px;
+}
+
+header p {
+	color: gray;
+}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: black;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+nav a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#main {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	gap: 20px;
+}
+
+#summary {
+	padding: 10px;
+	box-shadow: 0 1px 3px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+#summary h3 {
+	text-decoration: underline;
+}
+
+aside {
+	box-shadow: 0 1px 3px;
+	boder: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+footer h5 {
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+footer p {
+	display: inline;
+}
