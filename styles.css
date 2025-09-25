@@ -53,6 +53,11 @@ aside {
 	margin-bottom: 20px;
 }
 
+#quote p {
+	border-left: 5px solid black;
+	padding-left: 5px;
+}
+
 footer {
 	background-color: black;
 	color: white;
